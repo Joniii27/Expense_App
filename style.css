@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    background-color: #1e6ad4;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#add-btn {
+    color: #ddd;
+    border: 2px solid white;
+    background-color: green;
+    width: 8%;
+    font-size: 120%;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 2px #1e6ad4;
+    border-radius: 10px;
+    background-color: #1e6ad4;
+}
+
+label[for="category-select"],
+label[for="price-input"],
+label[for="date-input"],
+label[for="search-input"] {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    border: solid 2px white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-section input[type="number"],
+.input-section input[type="date"],
+.search-section input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.input-section button {
+    padding: 5px 10px;
+    background-color: #1e6ad4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.expenses-list {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #1e6ad4;
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px #1e6ad4;
+    border-radius: 10px;
+    background-color: #1e6ad4;
+    gap: 10px;
+}
+
+.search-section input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    width: 100%;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+.navigate-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navigate-btn:hover {
+    background-color: #0056b3;
+}
+
+#clear-all-btn {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+
